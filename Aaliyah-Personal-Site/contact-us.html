@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my personal website homepage - it shows the menu and connects to other pages.">
+    <title>Aaliyah's Personal Site</title>
+    <link rel="icon" type="image/x-icon" href="pscontroller.png">
+    <link rel="stylesheet" href="./css/index-css.css">
+  </head>
+  <body>
+    <h1>Contact Info page example for Project 5</h1>
+    <div class ="ld-container">
+      <p class ="mode-stat p-dark">Light Mode</p>
+      <label class = "light-dark-switch">
+        <input type="checkbox" id="mode">
+        <span class ="slider"></span>
+      </label>
+    </div>
+    
+    <a href="../index.html" class="btn btn-secondary" target="_blank">Home</a>
+    <a href="../about-us.html" class="btn btn-secondary"  target="_blank">About Us</a>
+    <a href="../photos/photos.html" class="btn btn-secondary" target="_blank">Photos</a>
+    <form action="/example_action.html" target="_blank" method="post">
+        <table>
+            <tr>
+              <td>
+                <h3>Questions/Comments/Feedback &#128187&#10067<h3>
+                    <label for="ExperienceRate"><b>Rate your Experience?</b></label>
+                    <select name="Rating" id="Rating">
+                      <option value="Excellent">Excellent</option>
+                      <option value="Great">Great</option>
+                      <option value="Decent">Decent</option>
+                      <option value="semibad">Not so great</option>
+                      <option value="bad">Back to the drawing board.</option>
+                    </select><br>
+                    <label for="firstname">First Name: </label>
+                    <input type="text" id="firstname" name=firstname><br>
+                    <label for="lastname">Last Name: </label>
+                    <input type="text" id="lastname" name=lastname><br>
+                    <label for="email">Email: </label>
+                    <input type="text" id="email" name=email><br>
+                    <label for="questions-comments">Questions/Comments: <br></label>
+                    <input type="text" id="questions-comments" name=questions-comments><br>
+                    <input type="submit" value="submit">
+              </td>
+            </tr>
+            </table>
+    </form>
+    <script src=".//javascript/java.js"></script>
+  </body>
+  </html>
